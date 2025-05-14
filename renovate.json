@@ -6,17 +6,17 @@
   "labels": ["dependencies"],
   "packageRules": [
     {
-        "matchUpdateTypes": ["major", "minor", "patch"],
-        "addLabels": ["{{ updateType }}"]
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "addLabels": ["{{ updateType }}"]
     },
     {
-        "matchManagers": ["npm"],
-        "enabled": false,
-        "matchPackageNames": ["@backstage/**"]
+      "matchManagers": ["npm"],
+      "enabled": false,
+      "matchPackageNames": ["@backstage/**"]
     },
     {
-        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "autoMerge": true
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
   ],
   "osvVulnerabilityAlerts": true,
