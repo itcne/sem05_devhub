@@ -2,12 +2,20 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  description: The ITCNE Developer Portal, a Backstage application for managing software components, documentation, and developer workflows.
+  tags:
+    - developer-portal
+    - backstage
+    - kubernetes
+    - ci-cd
+  annotations:
+    github.com/project-slug: cloud-native-engineering/sem05_devhub
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/managed-by-location: url:https://github.com/cloud-native-engineering/sem05_devhub/blob/main/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/cloud-native-engineering/sem05_devhub
 spec:
   type: website
-  owner: john@example.com
-  lifecycle: experimental
+  owner: teacher
+  lifecycle: production
+  system: itcne-portal
+  providesApis: []
