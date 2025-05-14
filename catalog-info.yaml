@@ -1,3 +1,12 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: itcne-portal
+  description: The ITCNE Developer Portal, a Backstage application for managing software components, documentation, and developer workflows.
+spec:
+  owner: teacher
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -8,6 +17,9 @@ metadata:
     - backstage
     - kubernetes
     - ci-cd
+  links:
+    - title: Developer Portal
+      url: http://localhost:3000
   annotations:
     github.com/project-slug: cloud-native-engineering/sem05_devhub
     backstage.io/techdocs-ref: dir:.
