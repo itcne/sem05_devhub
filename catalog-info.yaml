@@ -21,10 +21,10 @@ metadata:
     - title: Developer Portal
       url: http://localhost:3000
   annotations:
-    github.com/project-slug: cloud-native-engineering/sem05_devhub
+    github.com/project-slug: itcne/sem05_devhub
     backstage.io/techdocs-ref: dir:.
-    backstage.io/managed-by-location: url:https://github.com/cloud-native-engineering/sem05_devhub/blob/main/catalog-info.yaml
-    backstage.io/source-location: url:https://github.com/cloud-native-engineering/sem05_devhub
+    backstage.io/managed-by-location: url:https://github.com/itcne/sem05_devhub/blob/main/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/itcne/sem05_devhub
 spec:
   type: website
   owner: teacher
